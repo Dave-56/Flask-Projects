@@ -1,0 +1,49 @@
+body {
+    background-color: #000
+}
+
+.card {
+    width: 90%;
+    margin: auto
+}
+
+.page {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.card-body {
+    margin: 2%
+}
+
+.card-header {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white !important;
+    padding: 0px;
+    margin-top: 2%
+}
+
+button{
+    margin-bottom: 15px;
+}
+
+.todo-list-input{
+     margin-bottom: 1.5rem;
+     padding: 3px;
+     border-top-right-radius: 0;
+     border-bottom-right-radius: 0;
+     background: transparent;
+ }
+
+@media only screen and (max-width: 600px) {
+    .card {
+        font-size: 11px
+    }
+
+}
